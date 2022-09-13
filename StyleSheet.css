@@ -1,0 +1,185 @@
+canvas#canvas {
+    display: block;
+    position: absolute;
+    background: #00222B;
+    filter: blur(4px);
+    z-index: -1;
+    width: auto;
+    height: auto;
+}
+
+body {
+    z-index: 1000;
+}
+
+.navbar-nav {
+    position: static;
+    display: flex;
+}
+
+a.nav-link {
+    font-size: xx-large;
+}
+
+li {
+    font-family: 'Give You Glory', cursive;
+    color: #719171;
+    font-size: xx-large;
+    border-radius: 8px solid white;
+    background-color: #00222B;
+    margin: 2px;
+}
+
+a {
+    font-family: 'Give You Glory', cursive;
+    color: #719171;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+a.nav-link.active {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: 'Give You Glory', cursive;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 3%;
+    margin: 2%;
+}
+
+img {
+    border-radius: 8px;
+}
+
+#intro {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.heading {
+    background-color: #00222B;
+    text-align: center;
+}
+
+
+#about {
+    font-size: large;
+}
+
+#aboutbutton {
+    font-size: x-large;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 10%;
+}
+
+#aboutbutton:hover {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#indexbutton {
+    font-size: xx-large;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#indexbutton:hover {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+div#funfacts {
+    font-family: 'Rock Salt', cursive;
+    color: #719171;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+#headshot {
+    float: right;
+    margin-left: 2%;
+    max-width: 100%;
+    height: auto;
+}
+
+#connectsocial {
+    text-align: center;
+}
+
+#edu {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.college {
+    padding-bottom: 1%;
+}
+
+ul.navbar-expand-lg {
+    background-color: #00222B;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    display: flex;
+    color: white;
+    float: right;
+    text-align: right;
+}
+
+nav.navbar.navbar-expand-lg.sticky-top:hover {
+    color: white;
+}
+
+
+p#portfolio {
+    margin-bottom: 10%;
+}
+
+p#edu {
+    margin-bottom: 10%;
+}
+
+.fas.fa-bars {
+    position: static;
+}
+
+#bottomnav a {
+    background-color: #00222B;
+    color: white;
+}
+
+#bottomnav a:hover {
+    text-decoration: none;
+}
+
+.navbar.fixed-bottom {
+    justify-content: center;
+    background-color: #00222B;
+}
+
+.far.fa-envelope.fa-2x,
+.fab.fa-linkedin-in.fa-2x,
+.fab.fa-github.fa-2x {
+    padding: 0.5em;
+}
