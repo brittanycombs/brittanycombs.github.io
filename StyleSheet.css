@@ -134,6 +134,7 @@ div#funfacts {
 
 .college {
     padding-bottom: 1%;
+    max-width: 100%;
 }
 
 ul.navbar-expand-lg {
